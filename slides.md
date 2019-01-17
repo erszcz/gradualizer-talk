@@ -15,6 +15,26 @@ based on my selective knowledge and anecdotal evidence:
 
 .center[ .scale450x450[![Typing disciplines diagram](images/typing-disciplines.png)] ]
 
+<!--
+
+The above image is a prettier equivalent of the following diagram:
+
+```
+            static
+              |
+      C  Go   |  Haskell OCaml
+       Java   |  C++ Rust
+              |
+weak ---------+--------- strong
+              |
+   JavaScript |  Python
+          PHP |  Erlang Elixir
+              |
+           dynamic
+```
+
+-->
+
 ???
 
 <!-- # Typing disciplines 2/2 -->
@@ -38,24 +58,6 @@ based on my selective knowledge and anecdotal evidence:
     * `putStrLn $ show 1`, `putStrLn $ show 1.0`
     * but `data MyType = Left | Right; putStrLn $ show Left` - compilation error: `No instance for (Show MyType)`
   - OCaml: `1 + 2 : int = 3`, but `1.0 +. 2.0 : float = 3.0`, `print_int 1`, `print_float 1.0`
-
-<!--
-
-```
-            static
-              |
-      C  Go   |  Haskell OCaml
-       Java   |  C++ Rust
-              |
-weak ---------+--------- strong
-              |
-   JavaScript |  Python
-          PHP |  Erlang Elixir
-              |
-           dynamic
-```
-
--->
 
 ---
 
@@ -183,6 +185,9 @@ _Variants_ (e.g. C++ `std::variant`) to handle heterogenous data like .dynamic[d
 ## Gradualizer
 
   - https://github.com/josefs/Gradualizer
+
+  - I'm **not** the author of the project - credits go to Josef
+    Svenningsson and the project team attracted Josef's idea
 
   - Write .dynamic[dynamic] Erlang as usual
 
