@@ -326,15 +326,19 @@ cd ~/work/josefs/gradualizer/test/should_pass
 
 ---
 
-## References
+## Further reading
 
-- Gradual Typing for Functional Languages - http://scheme2006.cs.uchicago.edu/13-siek.pdf
+- _Gradual Typing for Functional Languages_ - http://scheme2006.cs.uchicago.edu/13-siek.pdf
 
-- Barendregt, Introduction to Lambda Calculus - http://www.nyu.edu/projects/barker/Lambda/barendregt.94.pdf
+- Barendregt, _Introduction to Lambda Calculus_ - http://www.nyu.edu/projects/barker/Lambda/barendregt.94.pdf
 
-- Jane Street: Make illegal states unrepresentable - https://youtu.be/kZ1P8cHN3pY?t=1335
+- Jane Street, _Make illegal states unrepresentable_ - https://youtu.be/kZ1P8cHN3pY?t=1335
 
 - BEAM languages - https://github.com/llaisdy/beam_languages
+
+- _Point Of No Local Return, The Continuing Story Of Erlang Type Systems_ - http://www.erlang-factory.com/static/upload/media/1465548492405302zeeshanlakhanipointofnolocalreturn.pdf
+
+- _Typing the Untypeable in Erlang A static type system for Erlang using Partial Evaluation_ - https://github.com/nachivpn/mt/blob/master/reports/final.pdf
 
 ---
 
