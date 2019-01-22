@@ -259,7 +259,69 @@ export PATH="${PATH}:/Users/erszcz/work/josefs/gradualizer"
 
 ## Gradualizer vs Dialyzer
 
-<!--???-->
+Dialyzer:
+
+```sh
+$ rebar3 new lib name=mylib
+$ cd mylib/
+$ time rebar3 dialyzer
+...
+```
+
+---
+
+## Gradualizer vs Dialyzer
+
+Dialyzer:
+
+```sh
+$ rebar3 new lib name=mylib
+$ cd mylib/
+$ time rebar3 dialyzer
+...
+
+real    0m31.653s
+user    0m29.180s
+sys     0m3.939s
+$ # what if the PLT is there already?
+$ time rebar3 dialyzer
+...
+```
+
+---
+
+## Gradualizer vs Dialyzer
+
+Dialyzer:
+
+```sh
+$ rebar3 new lib name=mylib
+$ cd mylib/
+$ time rebar3 dialyzer
+...
+
+real    0m31.653s
+user    0m29.180s
+sys     0m3.939s
+$ # what if the PLT is there already?
+$ time rebar3 dialyzer
+...
+
+real    0m19.037s
+user    0m17.350s
+sys     0m2.534s
+```
+
+Gradualizer:
+
+```sh
+$ time gradualizer ./src/*
+...
+```
+
+---
+
+## Gradualizer vs Dialyzer
 
 Dialyzer:
 
