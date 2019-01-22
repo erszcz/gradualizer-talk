@@ -10,7 +10,7 @@
 
 -export([test/0]).
 
-%% Make illegal states unrepresentable - https://youtu.be/kZ1P8cHN3pY?t=1335
+%% Make illegal states unrepresentable - https://youtu.be/kZ1P8cHN3pY?t=1287
 -record(admin_before_auth, {name :: binary(),
                             pass :: binary()}).
 -record(admin, {name :: binary(),

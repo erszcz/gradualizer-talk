@@ -13,7 +13,7 @@
 -export_type([t/0,
               t_before_auth/0]).
 
-%% Make illegal states unrepresentable - https://youtu.be/kZ1P8cHN3pY?t=1335
+%% Make illegal states unrepresentable - https://youtu.be/kZ1P8cHN3pY?t=1287
 -type t()             :: #{name := binary(),
                            acl  := [atom()]}.
 -type t_before_auth() :: #{name := binary(),

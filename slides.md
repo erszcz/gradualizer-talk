@@ -402,13 +402,12 @@ cd ~/work/josefs/gradualizer/test/should_fail
 - arg.erl
 - arity_mismatch.erl
 - bc.erl
-- branch2.erl
+- branch2.erl - often happens in practice
 - covariant_map_keys.erl
 - imported_undef.erl
 - map_fail.erl
 - map_pattern.erl
 - operator_pattern.erl - if you tell me how it might be useful I'm buying you a beer
-- pp_intersection.erl
 
 ```
 cd ~/work/josefs/gradualizer/test/should_pass
@@ -424,7 +423,7 @@ cd ~/work/josefs/gradualizer/test/should_pass
 
 - Barendregt, _Introduction to Lambda Calculus_ - http://www.nyu.edu/projects/barker/Lambda/barendregt.94.pdf
 
-- Jane Street, _Make illegal states unrepresentable_ - https://youtu.be/kZ1P8cHN3pY?t=1335
+- Jane Street, _Make illegal states unrepresentable_ - https://youtu.be/kZ1P8cHN3pY?t=1287
 
 - BEAM languages - https://github.com/llaisdy/beam_languages
 
