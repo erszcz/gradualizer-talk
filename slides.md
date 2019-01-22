@@ -37,6 +37,13 @@ weak ---------+--------- strong
 
 ???
 
+- two axes characterising PLs wrt typing
+- some confusion
+- spark a discussion
+- "why did you put C on the left but C++ on the right given they have
+   at least as many built-in numeric type coercions?"
+- or "JS is way cooler than PHP - why did you put them in the same corner?"
+
 <!-- # Typing disciplines 2/2 -->
 
   - C: everything passed as `void *`, e.g. sort function comparator - `int (*compar)(const void *, const void *)`
@@ -94,6 +101,17 @@ weak ---------+--------- strong
     int (*compar)(const void *, const void *)
     ```
 
+???
+
+- ocaml - strong - operations on data are dictated by types of data
+- hard to do something stupid, high level of confidence, inflexible, sometimes clunky
+
+- C
+- Java - everything inherits from Object
+- Go - everything implements Interface{}
+
+- it's arguable - impression - strong is better
+
 ---
 
 ## .dynamic[Dynamic] typing vs .static[static] typing
@@ -128,6 +146,12 @@ weak ---------+--------- strong
 	  |                                    ^^^^^^^
     ```
 
+???
+
+- both strongly typed
+- `a` has to be numeric and support addition
+- python - error at runtime
+
 ---
 
 ## Type inference
@@ -161,6 +185,8 @@ _Variants_ (e.g. C++ `std::variant`) to handle heterogenous data like .dynamic[d
 
 ← → ↑ ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↮ ⟵  ⟶   ⟷
 
+- type inference dates back to 50s
+
 ---
 
 ## Gradual typing
@@ -180,6 +206,10 @@ _Variants_ (e.g. C++ `std::variant`) to handle heterogenous data like .dynamic[d
 
   - Does it guarantee enough? Let's see!
 
+???
+
+- oldest papers on the subject date back to 90s, 1990
+
 ---
 
 ## Gradualizer
@@ -187,13 +217,13 @@ _Variants_ (e.g. C++ `std::variant`) to handle heterogenous data like .dynamic[d
   - https://github.com/josefs/Gradualizer
 
   - I'm **not** the author of the project - credits go to Josef
-    Svenningsson and the project team attracted Josef's idea
+    Svenningsson and the project team attracted by his idea
 
   - Write .dynamic[dynamic] Erlang as usual
 
-  - Message passing is always dynamically typed
+  - .dynamic[Message passing] is always .dynamic[dynamically typed]
 
-  - Add specs where appropriate (more as a project matures)
+  - Add .static[specs] where appropriate (more as a project matures)
 
   - .static[Static type checking] is opt-in - it only kicks in for specced portions of code
 
