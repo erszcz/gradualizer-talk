@@ -429,7 +429,7 @@ cd ~/work/josefs/gradualizer/test/should_pass
 
 - _Point Of No Local Return, The Continuing Story Of Erlang Type Systems_ - http://www.erlang-factory.com/static/upload/media/1465548492405302zeeshanlakhanipointofnolocalreturn.pdf
 
-- _Typing the Untypeable in Erlang A static type system for Erlang using Partial Evaluation_ - https://github.com/nachivpn/mt/blob/master/reports/final.pdf
+- _Typing the Untypeable in Erlang. A static type system for Erlang using Partial Evaluation_ - https://github.com/nachivpn/mt/blob/master/reports/final.pdf
 
 ---
 
